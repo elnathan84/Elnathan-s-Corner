@@ -52,7 +52,7 @@ hr{
 .bike-png{
   position: absolute;
   width: 20%;
-  right: 350px;
+  right: 400px;
   top: -165px;
   transform: rotate(10deg);
 }
@@ -62,7 +62,7 @@ hr{
 .runner-png{
   width: 10%;
   bottom: 160px;
-  left: 380px;
+  left: 420px;
   position: absolute;
 }
 
