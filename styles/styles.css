@@ -1,0 +1,200 @@
+body{
+  margin: 0;
+}
+h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 4.5rem;
+  color: white;
+  font-weight: bold;
+}
+h2{
+  font-family: 'Staatliches', cursive;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: lighter;
+}
+p{
+  font-family: 'Raleway', cursive;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: lighter;
+  line-height: 2;
+}
+h3{
+  font-family: 'Montserrat', cursive;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: lighter;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 10px;
+  color: #F0A500;
+  width: 20%;
+  margin: 50px auto;
+}
+/*Top*/
+.top-container{
+  padding-top: 100px;
+  text-align: center;
+  background-color: #F0A500;
+}
+.title-two{
+  font-family: 'Staatliches', cursive;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: lighter;
+}
+.know{
+  text-decoration: underline;
+  color: #082032;
+}
+.bike-png{
+  position: absolute;
+  width: 20%;
+  right: 300px;
+  bottom: 480px;
+  transform: rotate(10deg);
+}
+.computer-png{
+  width: 20%;
+}
+.runner-png{
+  width: 10%;
+  bottom: 550px;
+  left: 400px;
+  position: absolute;
+}
+
+
+
+
+/*Middle Container*/
+.middle-container{
+  text-align: center;
+  background-color: #334756;
+}
+.profile{
+  padding-top: 20px;
+  margin: auto;
+}
+.profile-container {
+  position: relative;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.profile-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F0A500;
+  border-radius: 50%;
+}
+
+.profile-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Staatliches', cursive;
+}
+
+.intro-message{
+  margin: auto auto 50px;
+  width: 40%;
+}
+.skill-row{
+  margin: 80px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.prog-img{
+  float: left;
+  width: 30%;
+  margin-right: 70px;
+  /* margin-bottom: 50px; */
+}
+
+.coffee-img{
+  float: right;
+  width: 30%;
+  margin-left: 10px;
+}
+.free-time{
+  font-size: 1.5rem;
+}
+.contact-message{
+  margin: auto auto 50px;
+  width: 30%;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 13px;
+   background-color: #F0A500;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.btn:hover {
+   background: #334756;
+   border: solid #082032 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/*Bottom Container*/
+.bottom-container{
+  text-align: center;
+  background-color: #082032;
+  padding: 60px;
+}
+
+.footer-link{
+  margin: 0 30px;
+  font-family: 'Fredoka One';
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.footer-link:hover{
+  color: #F0A500;
+}
+
+.copy-right{
+  margin-top: 70px;
+}
