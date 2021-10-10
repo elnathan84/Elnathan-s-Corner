@@ -50,25 +50,32 @@ hr{
   color: #082032;
 }
 .bike-png{
+  /* float: right;
   position: absolute;
   width: 20%;
-  right: 400px;
-  top: -165px;
-  transform: rotate(10deg);
+  right: 30rem;
+  bottom: 42rem; */
+  /* float: right;
+  width: 15%;
+  padding-right: 5%;
+  transform: rotate(10deg); */
+
 }
 .computer-png{
   width: 20%;
 }
 .runner-png{
-  width: 10%;
-  bottom: 160px;
-  left: 420px;
+  /* float: left;
   position: absolute;
+  width: 10%;
+  bottom: 48rem;
+  left: 36rem; */
+  /* float: left;
+  width: 10%;
+  padding-left: 10%; */
 }
 
-.relative{
-  position: relative;
-}
+
 
 
 
