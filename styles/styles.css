@@ -52,8 +52,8 @@ hr{
 .bike-png{
   position: absolute;
   width: 20%;
-  right: 300px;
-  bottom: 480px;
+  right: 400px;
+  top: -165px;
   transform: rotate(10deg);
 }
 .computer-png{
@@ -61,9 +61,13 @@ hr{
 }
 .runner-png{
   width: 10%;
-  bottom: 550px;
-  left: 400px;
+  bottom: 160px;
+  left: 420px;
   position: absolute;
+}
+
+.relative{
+  position: relative;
 }
 
 
